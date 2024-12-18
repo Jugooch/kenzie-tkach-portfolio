@@ -23,7 +23,7 @@ export default function RootLayout({
       <body>
         <nav className="fixed w-full z-50 bg-background/80 backdrop-blur-sm border-b">
           <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <Image src="/logos/SymbolLogoRed.png" alt="KT" width="48" height="48"></Image>
+            <Image src="./logos/SymbolLogoRed.png" alt="KT" width="48" height="48"></Image>
             <div className="space-x-8">
               <a href="#" className="hover:text-primary transition-colors">Home</a>
               <a href="#gallery" className="hover:text-primary transition-colors">Gallery</a>
@@ -35,7 +35,7 @@ export default function RootLayout({
         <footer className="bg-[#0a0c14] text-white py-12">
           <div className="max-w-6xl mx-auto px-4">
             <div className="flex flex-col items-center text-center">
-              <Image src="/logos/WatermarkLogoRed.png" alt="Kenzie Tkach" width="400" height="48"></Image>
+              <Image src="./logos/WatermarkLogoRed.png" alt="Kenzie Tkach" width="400" height="48"></Image>
               <div className="flex flex-wrap justify-center gap-4 mb-8">
                 <Link 
                   href="https://www.linkedin.com/in/mackenzie-tkach/?original_referer=https%3A%2F%2Fkenzietkachdesign.com%2F"

@@ -13,7 +13,7 @@ export function BackgroundPattern() {
       {/* Brand emblem */}
       <Image
         className="absolute top-8 right-4 opacity-20 w-[75%] sm:w-[50%] md:w-[30%] h-auto"
-        src="/logos/SymbolLogoRed.png" alt="" width="400" height="400"
+        src="./logos/SymbolLogoRed.png" alt="" width="400" height="400"
       >
       </Image>
     </div>
